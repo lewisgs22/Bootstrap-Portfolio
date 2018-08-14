@@ -1,3 +1,33 @@
-footer {
-    background-color: pink;
+.container {
+    background-color: white;
+}
+
+img {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+.fixed-top {
+    background-color: white;
+}
+
+.fixed-bottom {
+    background-color: white;
+    height: 50px;
+}
+
+h1 {
+    padding-left: 80px;
+}
+
+.nav {
+    padding-right: 80px;
 }
